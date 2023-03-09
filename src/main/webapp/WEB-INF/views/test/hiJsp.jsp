@@ -16,6 +16,7 @@
 </head>
 <body>
 <!--  MainController에 지정한 키값을 출력하기위해 입력 -->
-${hikey}
+${hikey}</br>
+저는 조아름입니다
 </body>
 </html>
