@@ -22,7 +22,7 @@ import com.spring.member.vo.MemberVO;
 @Controller(value = "memberController")
 public class MemberControllerImpl  implements  MemberController {
 
-//@Autowired으로 자동으로 주입
+	//@Autowired으로 자동으로 주입 생성자,필드,셋터메서드,메서드설정에 의존성 주입
 	@Autowired
 	private MemberService memberService;
 	@Autowired
